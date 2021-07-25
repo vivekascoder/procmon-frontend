@@ -10,4 +10,31 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  padding: 1rem;
+  background-color: rgb(243, 243, 243);
+  border-radius: 5px;
+  display: block;
+}
+.code-wrapper {
+  background-color: rgb(243, 243, 243);
+}
+.pattern-block {
+  /* min-height: 100vh; */
+  overflow: hidden;
+  background-image: url(./static/server.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn-read-docs {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 0.6rem 2.2rem;
+  background-color: dodgerblue;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  margin-top: 1.2rem;
 }
